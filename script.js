@@ -1,5 +1,5 @@
-// Use environment variable (Netlify will inject this)
-const apiKey = `${API_KEY}`;
+// ✅ Use direct key (since you're not using Vite or any bundler)
+const apiKey = "bb0a6c3c6f7b469fa16141531252207";
 
 // Fetch weather for a single city and update main card
 const getWeather = (city) => {
